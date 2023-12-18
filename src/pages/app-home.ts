@@ -64,9 +64,9 @@ export class AppHome extends LitElement {
   share() {
     if ((navigator as any).share) {
       (navigator as any).share({
-        title: 'PWABuilder pwa-starter',
-        text: 'Check out the PWABuilder pwa-starter!',
-        url: 'https://github.com/pwa-builder/pwa-starter',
+        title: 'PWABuilder Florater',
+        text: 'Check out the PWABuilder Florater!',
+        url: 'https://github.com/pwa-builder/Florater',
       });
     }
   }
@@ -83,7 +83,7 @@ export class AppHome extends LitElement {
             </div>
 
             <p>
-              For more information on the PWABuilder pwa-starter, check out the
+              For more information on the PWABuilder Florater, check out the
               <a href="https://docs.pwabuilder.com/#/starter/quick-start">
                 documentation</a>.
             </p>
@@ -91,7 +91,7 @@ export class AppHome extends LitElement {
             <p id="mainInfo">
               Welcome to the
               <a href="https://pwabuilder.com">PWABuilder</a>
-              pwa-starter! Be sure to head back to
+              Florater! Be sure to head back to
               <a href="https://pwabuilder.com">PWABuilder</a>
               when you are ready to ship this PWA to the Microsoft Store, Google Play
               and the Apple App Store!
